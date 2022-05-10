@@ -1,0 +1,105 @@
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+a {
+  color: #0f141e;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: #86898f;
+}
+.photo {
+  width: 200px;
+  height: 250px;
+  border-radius: 100%;
+}
+.info {
+  margin-bottom: 20px;
+}
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.bg-yellow {
+  background: #d6cb90;
+}
+
+.card {
+  padding: 15px 20px;
+
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
